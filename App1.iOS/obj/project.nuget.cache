@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "+4sFJn5ucwD8wf1Alr9MWhn11SveqRAGP5fj3OC+sb1Gu2TA6z3JyOoSsOSW7poep7vBwGh31SIsVMwEOj8erQ==",
+  "success": true,
+  "projectFilePath": "C:\\UTN_Software\\7moSemestre\\Aplicaciones Moviles\\App1\\App1.iOS\\App1.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ORTEL\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\ORTEL\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\ORTEL\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\ORTEL\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

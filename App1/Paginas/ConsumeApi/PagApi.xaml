@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.Paginas.ConsumeApi.PagApi">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Label x:Name="lblDatos" Text="ID:" FontSize="14" ></Label>
+            <Entry Placeholder="Id" x:Name="txtId" />
+            <Label x:Name="lblDatosN" Text="Nombre:" FontSize="14" ></Label>
+            <Entry Placeholder="Nombre" x:Name="txtNombre" />
+            <Label x:Name="lblDatosD" Text="Descripcion:" FontSize="14" ></Label>
+            <Entry Placeholder="Descripcion" x:Name="txtDescripcion" />
+            <Entry Placeholder="Iva: true/false" x:Name="txtIva" />
+            <Entry Placeholder="Costo" x:Name="txtCosto" />
+            <Entry Placeholder="PVP" x:Name="txtPvp" />
+            <Entry Placeholder="Estado: true/false" x:Name="txtEstado" />
+            <Entry Placeholder="Stock" x:Name="txtStock" />
+            <Entry Placeholder="Categoria" x:Name="txtCategoria" />
+            <Button Text="Leer Datos" Clicked="Button_Leer" />
+            <Button Text="Insertar" Clicked="Button_Insertar" />
+            <Button Text="Actualizar" Clicked="Button_Actualizar" />
+            <Button Text="Eliminar" Clicked="Button_Eliminar" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
