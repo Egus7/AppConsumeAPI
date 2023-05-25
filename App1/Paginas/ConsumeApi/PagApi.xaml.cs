@@ -39,9 +39,7 @@ namespace App1.Paginas.ConsumeApi
                     txtPvp.Text = producto.Prod_pvp;
                     txtEstado.Text = producto.Prod_estado.ToString();
                     txtStock.Text = producto.Prod_stock.ToString();
-                    // Obtener el nombre de la categoría
-                    string nombreCategoria = ObtenerNombreCategoria(producto.Categoriacat_id);
-                    txtCategoria.Text = nombreCategoria;
+                    txtCategoria.Text = producto.Categoriacat_id;
                 }
                 else
                 {
@@ -55,17 +53,6 @@ namespace App1.Paginas.ConsumeApi
                     txtStock.Text = "";
                     txtCategoria.Text = "";
                 }
-            }
-        }
-
-        private string ObtenerNombreCategoria(string categoriaId)
-        {
-            using (var wc = new WebClient())
-            {
-                wc.Headers.Add("Content-Type", "application/json");
-                var json = wc.DownloadString(URL + "/Categorias/" + categoriaId);
-                var categoria = Newtonsoft.Json.JsonConvert.DeserializeObject<Models.Categoria>(json);
-                return categoria?.Cat_nombre;
             }
         }
 
